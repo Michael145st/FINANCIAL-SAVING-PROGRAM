@@ -1,0 +1,22 @@
+<svg width="580" height="247" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <defs>
+  <filter id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="249" id="canvas_background" fill="#000000"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text fill="#B8874D" stroke-width="0" stroke-opacity="null" x="244.256661" y="142.025538" id="svg_2" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(8.136076218223472,0,0,6.436029882689809,-1805.8895325285337,-771.9080431700376) " stroke="#000" font-style="normal" filter="url(#svg_2_blur)" font-weight="bold">38</text>
+  <rect fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="142.500007" y="109.249995" width="294.999996" height="143.999998" id="svg_5"/>
+  <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="196.320502" y="198.163805" id="svg_7" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(3.464409203516319,0,0,2.5309034390724485,-574.4590110022962,-327.1725438091769) " stroke="#000" font-weight="bold">VERTINO</text>
+  <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="158.585619" y="175.414669" id="svg_8" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(0.9576035141944885,0,0,0.6644496917724609,6.273150582619564,85.49577215671889) " stroke="#000">financial agency seit 1987</text>
+ </g>
+</svg>
