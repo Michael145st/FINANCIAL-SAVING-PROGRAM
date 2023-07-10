@@ -88,13 +88,13 @@ body {
   .three {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
   padding-top: 7%;
-  margin-right: 7%;
-  margin-left: 7%;
+  margin-right: 4%;
+  margin-left: 4%;
   gap: 10px;
 }
 
@@ -256,4 +256,5 @@ body {
 .btn-up {
   position: absolute;
   margin-left: 80%;
+ ;
 }
