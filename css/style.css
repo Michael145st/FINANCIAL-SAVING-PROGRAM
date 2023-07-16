@@ -204,7 +204,7 @@ h4 {
 
 .right-box {
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 5%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -314,7 +314,7 @@ footer {
 }
 
 
-@media  (max-width: 500px)
+@media  (max-width: 600px)
 
 {
   body{ 
@@ -322,7 +322,7 @@ footer {
     overflow-x: hidden;}
 
   .btn-menu
-  {font-size: 5px;
+  {font-size: 7px;
     padding: 8px;}
   
   .container {
@@ -419,12 +419,12 @@ footer {
  }
 
 
-@media only (min-width: 500px) and (max-width: 1024px) 
+@media (min-width: 600px) and (max-width: 1100px) 
 {
 
 body {width: 100%; overflow-x: hidden;}
-.btn-menu {font-size: 13px; padding: 12px;}
-.financial {font-size: 60px;}
+.btn-menu {font-size: 12px; padding: 11px;}
+.financial {font-size: 40px;}
 .saving {margin-top: 5%;}
 .container {
   display: block;
@@ -438,6 +438,18 @@ display: flex;
   padding-left: 3%;
   margin-right: 3%;
 }
+.titel-words{
+  line-height: 0.2;
+  margin-bottom: 1px;
+  
+}
+.left-box{
+  padding-bottom: 50px;
+}
+.line-up {
+  padding-bottom: 20px;
+}
+.line-down{padding-top: 20px;}
 }
 
 
