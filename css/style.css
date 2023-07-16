@@ -59,8 +59,8 @@ h4 {
   .btn-menu {
     
     color: #ffffff !important;
-    font-size: 14px;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 120;
     line-height: 0.05;
     padding: 3px 30px;
     background: #000000;
@@ -254,6 +254,8 @@ h4 {
   align-items: normal;
   align-content: space-between;
   margin-top: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -307,16 +309,22 @@ h4 {
  ;
 }
 
-@media only screen and (max-width: 500px){
-  body { 
-    width: 100%;
-    overflow-x: hidden;
+footer {
+  padding-bottom: 30px;
+}
 
-  }
-  .btn-menu{
-    font-size: 10px;
-    padding: 10px;
-  }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 700px){
+  body{ 
+    width: 100%;
+    overflow-x: hidden;}
+
+  .btn-menu
+  {font-size: 5px;
+    padding: 8px;}
+  
   .container {
     display: block;
     margin-top: 10%;
@@ -330,9 +338,21 @@ h4 {
     font-size: 15px;
     margin-top: 8%;
   }
+  .grid {
+    gap: 1;
+    
+    
+  }
+  
+  .grid-clients {
+    margin-left: 5px;
+    margin-right: 5px;}
+
   .description {
     line-height: 150%;
     white-space: wrap;
+    font-size: 12px;
+    line-height: smaller;
   }
   .left-box {
     flex-direction: column;
@@ -345,10 +365,16 @@ h4 {
     display: block;
     justify-content: center;
     align-content: center;
-  }
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+ 
 
   .titel-words{
     font-size: 15px;
+    
+      padding-left: 10px;
+      padding-right: 10px;
   }
 
   .line-up {
@@ -376,7 +402,6 @@ h4 {
     line-height: 1;
   }
 
-  .
   .clients-list {
     display: flex;
     flex-direction: row;
@@ -385,11 +410,51 @@ h4 {
     align-content: space-between;
     margin-top: 5%;
   }
+
    .image-container{
     display: block;
     object-fit: fill;
     max-height: 100%;
-   ;
    }
-   
+
+ }
+
+
+
+ 
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+body {width: 100%; overflow-x: hidden;}
+.btn-menu {font-size: 13px; padding: 12px;}
+.financial {font-size: 60px;}
+.saving {margin-top: 5%;}
+.container {
+  display: block;
+  margin-top: 10%;
+  
+}
+.composition {
+display: flex;
+}
+.text {
+  padding-left: 3%;
+  margin-right: 3%;
+}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  /* Styles */
 }
